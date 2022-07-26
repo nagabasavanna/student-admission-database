@@ -1,0 +1,117 @@
+body{
+    background-color: #e0b49f99;
+  }
+  /* #bedcfa */
+  .window{
+    background-color: white;
+    margin: 0 auto 0;
+    width: 600px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2)
+
+  }
+  .window h2{
+    margin-bottom: 40px;
+    padding: 0;
+    color: #f06623;
+    text-transform: uppercase;
+  }
+  .window input[type="text"],
+  .window input[type="email"],
+  .window input[type="search"]{
+    padding: 10px 0;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #999;
+  }
+  .window input[type="submit"]{
+    border-bottom: none;
+    cursor: pointer;
+    background: #f06623;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .window form div{
+    position: relative;
+  }
+  .float{
+    position: absolute;
+    top: 10px;
+    left:0;
+    pointer-events: none;
+    transition: .5s;
+  }
+  .window input[type="text"]:focus~label,
+  .window input[type="text"]:valid~label,
+  .window input[type="email"]:focus~label,
+  .window input[type="email"]:valid~label,
+  .window input[type="search"]:focus~label,
+  .window input[type="search"]:valid~label
+  {
+    top:-5px;
+    left: 0;
+    color: #f06623;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .window input:focus,
+  .window input:valid
+  {
+    border-bottom: 2px solid #f06623;
+  }
+  .window input[type="radio"]:checked~label{
+    color: #f06623;
+    font-weight: bold;
+  }
+  input[type='radio']:after {
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: #d1d3d1;
+          content: '';
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid white;
+      }
+
+      input[type='radio']:checked::after {
+          width: 15px;
+          height: 15px;
+          border-radius: 15px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: #f06623;
+          content: '';
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid white;
+      }
+  .sele{
+    margin-bottom: 20px;
+  }
+.window input[type='reset']{
+  border-bottom: 2px solid #f06623;
+    cursor: pointer;
+    background: #f06623;
+    color: #fff;
+    text-transform: uppercase;
+  }
+table.table {
+    margin-top: 1em;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 2px;
+}

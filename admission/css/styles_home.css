@@ -1,0 +1,73 @@
+body{
+    margin:0px
+}
+nav{
+    padding:10px;
+    margin-bottom: 2px;
+    text-align: center;
+    background:#f06623;
+    position: sticky;
+    top: 0;
+}
+footer{
+    margin-top: 2px;
+    border-top: 0.5em solid #0a5a73 !important;
+    background:#f06623;
+    padding:6px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+a:hover{
+  color: darkred;
+}
+div.container{
+    background: #e0b49f2e;
+    height: 70vh;
+    padding: 26px;
+    font-family: system-ui;
+}
+td{
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+td,th{
+    padding: 3px;
+}
+table{
+	border-collapse: collapse;
+}
+div.dept a {
+    color: black;
+    background: #ff9c7e5c;
+    border-radius: 10px;
+}
+.depthead {
+    padding: 10px;
+    background: #a9410f47;
+}
+.dept{
+    padding: 16px;
+}
+.ttbody {
+    padding: 10px;
+    background: #a9410f47;
+}
+.formbd {
+    padding: 10px;
+    background: #a9410f47;
+    text-align: center;
+}
+.formcont{
+    background: white;
+    padding: 20px;
+    display: inline-block;
+}
+.fac{
+    text-align: center;
+}
